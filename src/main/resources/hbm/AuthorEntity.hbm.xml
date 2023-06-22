@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="models.Author" table="author" schema="public" catalog="StoreBooks">
+        <id name="id_author" column="id_author"/>
+        <property name="name_author" column="name_author"/>
+        <property name="description_author" column="description_author"/>
+        <property name="icon_author_path" column="icon_author_path"/>
+    </class>
+</hibernate-mapping>
